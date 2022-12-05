@@ -11,7 +11,7 @@ export default function App() {
       <UI>
         <Crosshair />
       </UI>
-      <Canvas shadowMap>
+      <Canvas shadowMap dpr={1} frameloop="demand">
         <DefaultScene />
       </Canvas>
     </>
